@@ -1,25 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Pamela's </title>
+	<title>Movie Recommendations</title>
 	<style type="text/css">
 		img{
-			height:150pxl;
+
+			height:px;
+			width:px;
 
 		}
 
 		h1:hover{
-			color: red;
+			color: white;
+		}
 
+			h1{
+			font-size: 80px;
+			color: white;
+			background-image: url("movie1.gif");
+		}
+
+		body {
+			background-image: url("stars.gif");
+		}
+
+		table{
+			background-color: gray;
+			padding: 15px;
+			border-collapse: collapse;
+		}
+
+		td{
+			padding-right: 30px;
+			padding-left: 30px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			border-bottom: 4px dashed white;
+			border-right: 4px dashed white;
+			border-left:4px dashed white;
+		}
+
+		th{
+			text-align: center;
+			color: white;
+			background-color: #633482;
+			border-bottom: 4px dashed white;
+		}
+
+		li{
+			color: white;	
 		}
 	</style>
-	
-
-	
 </head>
 <body>
-	<h1>Pamela's Top 10 Movies:</h1>
-	<img src= "https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2017/07/21/Pictures/_a5544324-6dc5-11e7-90b5-ba41537c464e.jpg">
+<h1>Pamela's Favorite Movies</h1>   
 	<ol>
 		<li><a href= "https://www.youtube.com/watch?v=bpXfcTF6iVk">Prisoners(2013)</a>
 		<li><a href= "https://www.youtube.com/watch?v=ByXuk9QqQkk">Spirited Away(2001)</a>
@@ -27,10 +61,76 @@
 		<li><a href= "https://www.youtube.com/watch?v=C0BMx-qxsP4">John Wick (2014)</a>
 		<li><a href= "https://www.youtube.com/watch?v=FpKaB5dvQ4g">The Bourne Identity(2002)></a>
 		<li><a href= "https://www.youtube.com/watch?v=CzvH6_e2a-U">Zootopia(2016)</a>
-		<li><a href= "https://www.youtube.com/watch?v=bLvqoHBptjg">Forest Gump(1994)</a>
+		<li><a href= "https://www.youtube.com/watch?v=bLvqoHBptjg">Forrest Gump(1994)</a>
 		<li><a href= "https://www.youtube.com/watch?v=OjO0QVuZcE8">Finding Forrester(2000)</a>
 		<li><a href= "https://www.youtube.com/watch?v=PaZVjZEFkRs">Good Will Hunting(1997)</a>
 		<li><a href= "https://www.youtube.com/watch?v=EXeTwQWrcwY">The Dark Knight(2008)</a>
-	<ol>
+	<ol> 
+	<h2>Movie Information</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Budget</th>
+				<th>Box Office</th>
+				<th>Year</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Prisoners</td>
+				<td>$46 million</td>
+				<td>$122.1 million</td>
+				<td> 2013 </td>
+			</tr><t>
+				<td>Spirited Away</td>
+				<td>$15 million to $19 million</td>
+				<td>$289.1 million</td>
+				<td> 2001 </td>
+			</tr><tr>
+				<td>Warriors</td>
+				<td>$25 million</td>
+				<td>$23.1 million</td>
+				<td> 2011 </td>
+			</tr><tr>
+				<td>John Wick</td>
+				<td>$29.7 million</td>
+				<td>$88.8 million</td>
+				<td> 2014 </td>
+			</tr><tr>
+				<td>The Bourne Identity</td>
+				<td>$60 million</td>
+				<td>$214 million</td>
+				<td> 2002 </td>
+			</tr><tr>
+				<td>Zootopia</td>
+				<td>$150 million</td>
+				<td>$1.024 million</td>
+				<td> 2016 </td>
+			</tr><tr>
+				<td>Forest Gump</td>
+				<td>$55 million</td>
+				<td>$677.9 million</td>
+				<td> 1994 </td>
+			<tr><tr>
+				<td>Finding Forrester</td>
+				<td>$43  million</td>
+				<td>$80 million</td>
+				<td> 2000 </td>
+			</tr><tr>
+				<td>Goodwill Hunting</td>
+				<td>$10  million</td>
+				<td>$225.9 million</td>
+				<td> 1997 </td>
+			</tr><tr>
+				<td>The Dark Knight</td>
+				<td>$185 million</td>
+				<td>$1.005 million</td>
+				<td> 2008 </td>
+			</tr>
+		</tbody>
+	</table>
 </body>
+<audio controls autoplay>
+	<source src="SpiritedAwayPiano.mp3" type="audio/mpeg">
+</audio>
 </html>
